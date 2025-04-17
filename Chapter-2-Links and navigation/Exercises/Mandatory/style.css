@@ -1,0 +1,40 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    background-color: #f0e6d6;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #f6c700;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .button-link {
+    background-color: #0077b6;
+    color: white !important;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .button-link:hover {
+    background-color: #005f8a;
+  }
+  
+  h2 {
+    color: #444;
+  }
+  

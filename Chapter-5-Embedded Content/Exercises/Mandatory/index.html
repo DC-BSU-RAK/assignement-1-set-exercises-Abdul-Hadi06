@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <!--Linking internal stylesheet--> 
+    <!--Title for website--> 
+    <title>Car Drifting Video</title>
+    <!--Style-->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-color: black;
+            background-position: center;
+            font-family: 'Segoe UI',sans-serif;
+            /*Centering Content*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        /*box adjustments containing video and text*/
+        .overlay{
+            background-color: rgb(225, 225, 225, 0.6);
+            padding: 30px;
+            border-radius: 16px;
+            /*Light depth*/
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            /*Glass Effect*/
+            backdrop-filter: blur(4px);
+        }
+        /*Video adjustments*/
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow:  0 6px 12px rgba(0, 0, 0, 0.25);
+        }
+        /*heading*/
+        h1 {
+            margin: 0 0 10px;
+            font-size: 26px;
+            color: #222;
+        }
+        /*paragraph*/
+        p{
+            font-size: 16px;
+            color: #333;
+            margin: 5px 0;
+        }
+        /*credits*/
+        .credits{
+            font-size: 13px;
+            color: #555;
+        }
+        </style>
+        </head>
+        <body>
+            <!--The video is on loop, autoplay and mute-->
+            <div class="overlay">
+            <video autoplay loop muted controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the Video tag
+            </video>
+            <!--Heading-->
+            <h1>The Ultimate Drift in Speed, Control, and Style</h1>
+            <!--Content below the video-->
+            <p>A fun and short video of a car showing off its drifting moves.</p>
+            <!--credits-->
+            <p class="credits"> Video from pexels </p>
+        </div>
+    </body>
+    </html>
