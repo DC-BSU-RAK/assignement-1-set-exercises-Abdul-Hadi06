@@ -6,6 +6,7 @@ body {
     color: #000000;
   }
   
+  /*Header section with dark background and white text*/
   header {
     background-color: #17072b;
     color: #ffffff;
@@ -20,6 +21,7 @@ body {
     text-decoration: underline;
   }
   
+  /*Navigation bar with links placed horizontally*/
   nav ul {
     list-style: none;
     padding: 0;
@@ -35,10 +37,12 @@ body {
     font-size: 18px;
   }
   
+  /*This part styles the main content of the page*/
   main {
     padding: 20px;
   }
   
+  /*Layout for welcome section and sidebar*/
   .welcome-section {
     display: flex;
     flex-wrap: wrap;
@@ -55,6 +59,7 @@ body {
     font-weight: bold;
   }
   
+  /*Welcome image in the main content*/
   article img {
     width: 100%;
     margin-top: 15px;
@@ -73,6 +78,7 @@ body {
     font-weight: bold;
   }
   
+  /*List of items in the lineup*/
   .lineup ul {
     list-style: none;
     padding: 0;
@@ -83,6 +89,7 @@ body {
     margin-bottom: 20px;
   }
   
+  /*Images in the lineup section*/
   .lineup-images {
     display: flex;
     gap: 20px;
@@ -95,7 +102,7 @@ body {
     aspect-ratio: 1/1;
     object-fit: cover;
   }  
-  
+  /*This styles the footer part*/
   footer {
     background-color: #8c15e9;
     color: #ffffff;
