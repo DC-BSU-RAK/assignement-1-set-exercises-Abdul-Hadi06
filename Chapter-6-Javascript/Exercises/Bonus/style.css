@@ -1,4 +1,4 @@
-/* Simple styling for the RGB game */
+/*Styling of the RGB game page*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -6,6 +6,7 @@ body {
     padding: 40px;
   }
   
+  /*Container for color choices*/
   #choices {
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@ body {
     margin: 20px 0;
   }
   
+  /*Style for the color boxes*/
   .color {
     width: 60px;
     height: 60px;

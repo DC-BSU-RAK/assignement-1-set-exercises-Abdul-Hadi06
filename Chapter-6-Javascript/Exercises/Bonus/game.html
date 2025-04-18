@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <title>RGB Colour Game</title>
+  <!--Link to CSS-->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!--Main heading of the game-->
   <h1>Guess the Colour!</h1>
+  <!--Displays the RGB value that the user has to guess-->
   <p>RGB Value: <span id="rgb">rgb(?, ?, ?)</span></p>
   <div id="choices"></div>
+  <!--Display a message showing if the user has won or lost-->
   <p id="msg"></p>
+  <!--Displays the user's lives and score-->
   <p>Lives: <span id="lives">3</span> | Score: <span id="score">0</span></p>
+  <!--Button to start a new game when the game has ended-->
   <button id="play-again" style="display: none;">Play Again</button>
+  
+  <!--Link to Java Script-->
   <script src="index.js"></script>
 </body>
 </html>
