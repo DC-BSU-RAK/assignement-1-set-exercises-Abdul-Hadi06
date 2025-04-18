@@ -59,7 +59,7 @@ button {
     transition: background-color 0.3s;
 }
 
-/*Hover effect for button*/
+/*Hover effect for the button*/
 button:hover {
     background-color: #0056b3;
 }
