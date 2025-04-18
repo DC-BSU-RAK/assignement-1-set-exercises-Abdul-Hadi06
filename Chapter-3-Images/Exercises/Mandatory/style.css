@@ -1,19 +1,20 @@
-/* Global styles */
+/*Set up the main page background and font*/
 body {
     font-family: "Times New Roman", Times, serif;
-    background-color: #d0e7ff; /* Light blue background */
+    background-color: #d0e7ff;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
+/*Big heading at the top*/
 h1 {
     color: #003366;
     margin-top: 40px;
     font-size: 2.2rem;
 }
 
-/* Container for all images */
+/*This keeps all the images stacked and centered*/
 .image-container {
     display: flex;
     flex-direction: column;
@@ -22,19 +23,18 @@ h1 {
     margin: 40px 0;
 }
 
-/* Each image box */
 .image-box {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     width: fit-content;
-    border: 3px solid #0066cc; /* Matching blue border */
+    border: 3px solid #0066cc;
 }
 
-/* Title bar above each image */
+/*This writes a title above each image*/
 .title-bar {
-    background-color: #0066cc; /* Blue to match border */
+    background-color: #0066cc;
     color: #ffffff;
     padding: 10px 20px;
     border-top-left-radius: 8px;
@@ -43,10 +43,9 @@ h1 {
     font-weight: bold;
 }
 
-/* Image settings */
 img {
     display: block;
-    border: 5px solid #0066cc; /* Blue border around image */
+    border: 5px solid #0066cc;
     filter: grayscale(100%) contrast(115%) brightness(105%);
     transition: filter 0.3s ease-in-out;
     width: 512px;
@@ -54,12 +53,12 @@ img {
     margin-top: 10px;
 }
 
-/* Hover to show original color */
+/*When you hover over the image, it shows the original color*/
 img:hover {
     filter: none;
 }
 
-/* License text */
+/*Photo credits under each image*/
 .license {
     font-size: 0.9rem;
     color: #003366;
