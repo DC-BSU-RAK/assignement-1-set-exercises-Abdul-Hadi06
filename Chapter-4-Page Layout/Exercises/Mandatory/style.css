@@ -42,7 +42,7 @@ body {
     padding: 20px;
   }
   
-  /*Layout for welcome section and sidebar*/
+  /*Layout of the welcome section and sidebar*/
   .welcome-section {
     display: flex;
     flex-wrap: wrap;
