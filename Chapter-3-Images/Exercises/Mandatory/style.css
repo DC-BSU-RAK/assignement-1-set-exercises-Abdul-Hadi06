@@ -53,7 +53,7 @@ img {
     margin-top: 10px;
 }
 
-/*When you hover over the image, it shows the original color*/
+/*When you hover over the image it shows the original color*/
 img:hover {
     filter: none;
 }
