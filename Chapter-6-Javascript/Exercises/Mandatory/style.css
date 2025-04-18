@@ -1,4 +1,4 @@
-/* Basic reset and font styling */
+/*Basic reset and font styling*/
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #ece9e6, #ffffff);
@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-/* Styling the container */
+/*Styling the container*/
 .container {
     background-color: #f9f9f9;
     padding: 30px;
@@ -18,19 +18,20 @@ body {
     text-align: center;
 }
 
-/* Headline */
+/*Headline styling*/
 .container h1 {
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-/* Labels and inputs */
+/*Styling the labels*/
 label {
     display: block;
     margin-top: 15px;
     font-weight: bold;
 }
 
+/*Styling input fields*/
 input[type="number"] {
     width: 100%;
     padding: 8px;
@@ -41,12 +42,12 @@ input[type="number"] {
     transition: border-color 0.3s;
 }
 
-/* Focus effect on input fields */
+/*Focus effect on input fields*/
 input[type="number"]:focus {
     border-color: #007BFF;
 }
 
-/* Button styling */
+/*Styling the button*/
 button {
     margin-top: 20px;
     padding: 10px 15px;
@@ -58,12 +59,12 @@ button {
     transition: background-color 0.3s;
 }
 
-/* Hover effect for button */
+/*Hover effect for button*/
 button:hover {
     background-color: #0056b3;
 }
 
-/* Paragraph for result */
+/*Styling for the result text*/
 #total {
     margin-top: 20px;
     font-size: 18px;

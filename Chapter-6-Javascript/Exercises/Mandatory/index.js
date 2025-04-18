@@ -1,21 +1,21 @@
-// Get DOM elements
+//Get references to HTML elements
 const costInput = document.getElementById('cost');
 const litersInput = document.getElementById('liters');
 const calculateBtn = document.getElementById('calculateBtn');
 const totalDisplay = document.getElementById('total');
 
-// Function to calculate total cost
+//Function to calculate the total cost
 function calculateTotal() {
-    // Get values from inputs
+    //Get the input values
     const costPerLiter = parseFloat(costInput.value);
     const liters = parseFloat(litersInput.value);
 
-    // Calculate total
+    //Calculate the total cost
     const total = costPerLiter * liters;
 
-    // Update result in the <p> tag
+    //Display the total cost in the 'total' paragraph
     totalDisplay.textContent = `Total Cost: $${total.toFixed(2)}`;
 }
 
-// Add event listener to the button
+//Calculate the total when the button is clicked
 calculateBtn.addEventListener('click', calculateTotal);
